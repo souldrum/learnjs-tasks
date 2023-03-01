@@ -3,8 +3,8 @@
 
 "use strict";
 
-let name = "Ilya";
+const firstName = "Ilya";
 
 alert(`hello ${1}`); //hello 1
 alert(`hello ${"name"}`); //hello name
-alert(`hello ${name}`); //hello Ilya
+alert(`hello ${firstName}`); //hello Ilya
