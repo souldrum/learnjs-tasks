@@ -2,12 +2,12 @@
 
 "use strict";
 
-let user = {
+const user = {
     name: "John",
     years: 30,
 };
 
-let { name, years: age, isAdmin = false } = user;
+const { name, years: age, isAdmin = false } = user;
 
 alert(name);
 alert(age);

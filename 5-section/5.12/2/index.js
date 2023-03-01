@@ -2,11 +2,11 @@
 
 "use strict";
 
-let room = {
+const room = {
     number: 23,
 };
 
-let meetup = {
+const meetup = {
     title: "Совещание",
     occupiedBy: [{ name: "Иванов" }, { name: "Петров" }],
     place: room,

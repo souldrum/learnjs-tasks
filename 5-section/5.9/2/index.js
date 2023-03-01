@@ -2,7 +2,7 @@
 
 "use strict";
 
-let user = {
+const user = {
     name: "John",
     age: 30,
 };
